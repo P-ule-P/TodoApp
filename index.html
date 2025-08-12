@@ -8,6 +8,7 @@
     <title>Document</title>
   </head>
   <body>
+    <!------------------ Header ------------------>
     <header class="header">
       <div class="header-main">
         <h4>Dashboard</h4>
@@ -27,43 +28,90 @@
         </span>
       </div>
     </header>
-    <nav>
-      <div>
-        <p>P</p>
-        <h1>WorkSpace</h1>
+
+    <!------------------ Navigation ------------------>
+    <nav class="nav-sidebar">
+      <div class="nav-header">
+        <span id="nav-header-icon">P</span>
+        <h4>WorkSpace</h4>
       </div>
-      <div>
-        <ul>
-          Favoraites
-          <li>My Task</li>
-          <li>Ultimate Goals</li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          My Dashboard
-          <li>Monthly KPIs</li>
-          <li>Product Key Drivers</li>
-          <li>Design Team KPIs</li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          New Dashboard
-          <li>Assign a value</li>
-        </ul>
-      </div>
-      <div>
-        <div>
-          <p>Config Layout</p>
+      <div class="nav-main-content">
+        <div class="nav-favorites">
+          <p>
+            <img
+              src="assets/dropdown-arrow-button.png"
+              alt="Dropdown Arrow Button"
+              class="nav-image"
+            />FAVORITES
+            <li>👋My Task</li>
+            <li>🎯Ultimate Goals</li>
+          </p>
         </div>
-        <div>
-          <p>All Dashboards</p>
+        <div class="nav-dashboards">
+          <p>
+            <img
+              src="assets/dropdown-arrow-button.png"
+              alt="Dropdown Arrow Button"
+              class="nav-image"
+            />MY DASHBOARD
+            <li>✅Monthly KPIs</li>
+            <li>💡Product Key Drivers</li>
+            <li>✏️Design Team KPIs</li>
+          </p>
+        </div>
+        <div class="nav-add-dashboard">
+          <p>
+            <img
+              src="assets/add-button.png"
+              alt="Add Button"
+              class="nav-image"
+            />New Dashboard
+          </p>
         </div>
       </div>
-      <div>
-        <p>Closing Arrow</p>
+      <div class="nav-footer">
+        <div>
+          <div>
+            <p>
+              <img
+                src="assets/configure-button.png"
+                alt="Configure Button"
+                class="nav-image"
+              />Config Layout
+            </p>
+          </div>
+          <div>
+            <p>
+              <img
+                src="assets/all-dashboard-button.png"
+                alt="All Dashboard Button"
+                class="nav-image"
+              />All Dashboards
+            </p>
+          </div>
+        </div>
+        <div id="nav-footer-close">
+          <p>
+            <img
+              src="assets/closing-arrow-button.png"
+              alt="Closing Arrow Button"
+            />
+          </p>
+        </div>
       </div>
     </nav>
+
+    <!------------------ Main ------------------>
+    <main class="main-content"></main>
+
+    <!------------------ Side Bar ------------------>
+    <aside class="side-bar">
+      <h4>Project Overview</h4>
+      <ul>
+        <li>Tool 1</li>
+        <li>Tool 2</li>
+        <li>Tool 3</li>
+      </ul>
+    </aside>
   </body>
 </html>
